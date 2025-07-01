@@ -103,6 +103,9 @@ h1 {
     background-color: #F32146;
     border-bottom: yellow solid 2px;
 }
+.products {
+    flex-wrap: no-wrap;
+}
 .products-extra {
     display: flex;
     gap: 20px;
