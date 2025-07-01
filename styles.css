@@ -104,7 +104,7 @@ h1 {
     border-bottom: yellow solid 2px;
 }
 .hero-menu {
-    padding-top: 50px;
+    padding-top: 90px;
 }
 .products-extra {
     display: flex;
@@ -176,7 +176,7 @@ h1 {
 footer {
     background-image: url(https://learn.logikaschool.com/uploads/student/4934932/684ec811e0580.png), url(https://learn.logikaschool.com/uploads/student/4934932/685a879210dfd.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: 0 100px, 90vw 100px;
+    background-position: 0 100px, 85vw 150px;
     background-color: #F5F8FD;
     position: relative;
     padding: 5pxpx 0;
