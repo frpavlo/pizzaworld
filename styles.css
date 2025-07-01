@@ -1,0 +1,206 @@
+body {
+    font-family: sans-serif;
+    font-size: 20x;
+}
+
+header{
+    padding: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: 1s;
+}
+header p {
+    padding-left: 20px;
+    font-size: 28px;
+}
+header:hover {
+    background-color: #F32146;
+}
+header p span {
+    color: #F32146;
+}
+header:hover , header:hover p span {
+    color: white;
+}
+nav {
+    padding: 0 100px;
+    margin-left: auto;
+    display: flex;
+    gap: 100px;
+}
+header:hover nav a {
+    color: white;
+}
+nav a {
+    color: #F32146;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav a:hover {
+    color: #F34446;
+    font-weight: 800;
+}
+.hero {
+    background-image: url(https://learn.logikaschool.com/uploads/student/4934932/68514ad4331a8.png), url(https://learn.logikaschool.com/uploads/student/4934932/68514b34bfdaa.png), url(https://learn.logikaschool.com/uploads/student/4934932/684590b8e292b.png);
+    background-position: 200px 100px, 700px 470px, 800px 0 ;
+    background-repeat: no-repeat;
+    background-color: #F34446;
+    padding: 150px 0 120px 50px;
+    position: relative;
+    color: white;
+}
+.hero_link {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 25px 50px;
+    background-color: yellow;
+    border-radius: 5%;
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+    border: black 1px solid;
+}
+.hero_link:hover {
+    border-radius: 50%;
+    border: white 3px solid;
+}
+h1 {
+    font-size: 64px;
+}
+.hero img {
+    position: absolute;
+    bottom: 35px;
+    left: 1100px;
+}
+.daily {
+    background-image: url(https://learn.logikaschool.com/uploads/student/4934932/684feeddea01c.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+.daily-price, .daily-info {
+    font-size: 25px;
+}
+.products-title {
+    text-align: center;
+    font-size: 46px;
+}
+.products, .hero-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 20px 0 50px;
+    justify-content: center;
+    background-color: #F32146;
+    border-bottom: yellow solid 2px;
+}
+.products-extra {
+    display: flex;
+    gap: 20px;
+    background-color: #FF3A4D;
+    padding: 20px;
+}
+.product-extra {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+.product-extra-right {
+    background-color: yellow;
+    border-radius: 5%;
+}
+.product-extra img {
+    width: 10vw;
+    height: 10vw;
+    background-color: orange;
+    border-radius: 40%;
+}
+.product-extra a {
+    color: black;
+    text-decoration: none;
+}
+.product-extra a:hover {
+    color: #FF3A4D;
+}
+.product {
+    padding: 40px 35px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 5%;
+    transition: 0.5s;
+    color: #F34446;
+}
+.product:hover {
+    padding: 60px 45px;
+}
+.product span {
+    text-decoration: line-through;
+    color: black;
+}
+.hero-menu .product img {
+  width: 200px;
+  height: 200px;
+}
+.product img {
+    margin-top: 40px;
+}
+.product:nth-child(2) img {
+    margin-top: 70px;
+}
+.product:nth-child(3) img {
+    margin-top: 0;
+}
+.reviews {
+    padding: 50px;
+}
+.review span {
+    color: grey;
+    font-size: 12px;
+}
+.reviews-title {
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 1px 0px 1px red;
+}
+footer {
+    background-image: url(https://learn.logikaschool.com/uploads/student/4934932/684ec811e0580.png), url(https://learn.logikaschool.com/uploads/student/4934932/685a879210dfd.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 100px, 70vw 110px;
+    background-color: #F5F8FD;
+    position: relative;
+    padding: 5pxpx 0;
+}
+footer p {
+    margin: 50px 0;
+}
+footer div {
+    padding: 40px 35vw;
+}
+footer div div {
+    display: inline-block;
+    background-color: yellow;
+    border-radius: 10%;
+    padding: 50px 40px;
+}
+.footer-link {
+    color: white;
+    text-decoration: none;
+    padding: 25px 50px;    
+    background-color: #F3274C;
+    border-radius: 5%;
+    text-align: center;
+    transition: 1s;
+}
+.footer-link:hover {
+    padding: 35px 60px;
+}
