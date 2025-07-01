@@ -98,7 +98,6 @@ h1 {
     display: flex;
     gap: 24px;
     padding: 20px 0 50px;
-    justify-content: center;
     background-color: #F32146;
     border-bottom: yellow solid 2px;
 }
@@ -106,7 +105,6 @@ h1 {
     flex-wrap: wrap;
 }
 .products {
-    max-width: 100vw;
     flex-wrap: no-wrap;
 }
 .products-extra {
