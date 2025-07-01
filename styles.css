@@ -146,11 +146,9 @@ h1 {
     text-decoration: line-through;
     color: black;
 }
-.hero-menu .product img {
-  width: 200px;
-  height: 200px;
-}
 .product img {
+    width: 200px;
+    height: 200px;
     margin-top: 40px;
 }
 .product:nth-child(2) img {
