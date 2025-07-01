@@ -104,9 +104,6 @@ h1 {
 .hero-menu {
     flex-wrap: wrap;
 }
-.products {
-    flex-wrap: no-wrap;
-}
 .products-extra {
     display: flex;
     gap: 20px;
