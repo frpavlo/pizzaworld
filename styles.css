@@ -98,6 +98,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    justify-content: center;
     padding: 20px 0 50px;
     background-color: #F32146;
     border-bottom: yellow solid 2px;
