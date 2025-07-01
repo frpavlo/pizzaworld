@@ -96,13 +96,11 @@ h1 {
 }
 .products, .hero-menu {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     padding: 20px 0 50px;
     background-color: #F32146;
     border-bottom: yellow solid 2px;
-}
-.hero-menu {
-    flex-wrap: wrap;
 }
 .products-extra {
     display: flex;
